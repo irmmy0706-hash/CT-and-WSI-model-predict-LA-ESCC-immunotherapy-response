@@ -1,0 +1,33 @@
+# Model weights
+*.pth
+saved_models/
+weights/
+
+# Patient data and results containing patient IDs
+standard_training/split.json
+standard_training/evaluation/
+standard_training/eval_original_weights/
+standard_training/train_log.txt
+standard_training/test_metrics.pkl
+
+# Analysis scripts (internal)
+generate_figures_tables.py
+generate_calibration_curves.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+
+# IDE
+.idea/
+
+# Misc
+.Rhistory
+Test
+methods.md
+
+# Log files
+*.log
+*_log.txt
